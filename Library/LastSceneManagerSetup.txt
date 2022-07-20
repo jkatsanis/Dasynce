@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/2d Game/Scenes/A_Start.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

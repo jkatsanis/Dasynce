@@ -1,0 +1,1074 @@
+fileFormatVersion: 2
+guid: 45b7dac73688ac64b8641f05d28d5c21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1512237022493215860
+    second: PotionHOuse_0
+  - first:
+      213: 1691888167117294406
+    second: PotionHOuse_1
+  - first:
+      213: 8014664530530719747
+    second: PotionHOuse_2
+  - first:
+      213: 8212566215632454948
+    second: PotionHOuse_3
+  - first:
+      213: -4127021501924136733
+    second: PotionHOuse_4
+  - first:
+      213: -5485756825985075282
+    second: PotionHOuse_5
+  - first:
+      213: -8875279378949690883
+    second: PotionHOuse_6
+  - first:
+      213: 2384772969424424924
+    second: PotionHOuse_7
+  - first:
+      213: 7652011294367553213
+    second: PotionHOuse_8
+  - first:
+      213: -1215259976624780154
+    second: PotionHOuse_9
+  - first:
+      213: -5836095131512935593
+    second: PotionHOuse_10
+  - first:
+      213: -5312265714959954863
+    second: PotionHOuse_11
+  - first:
+      213: 6457156005270832898
+    second: PotionHOuse_12
+  - first:
+      213: -2733968184601119493
+    second: PotionHOuse_13
+  - first:
+      213: 230734851892221962
+    second: PotionHOuse_14
+  - first:
+      213: 967027921063518434
+    second: PotionHOuse_15
+  - first:
+      213: -2207873479409994376
+    second: PotionHOuse_16
+  - first:
+      213: -8309577249576548374
+    second: PotionHOuse_17
+  - first:
+      213: -7925166974003413995
+    second: PotionHOuse_18
+  - first:
+      213: -7037248035255644621
+    second: PotionHOuse_19
+  - first:
+      213: -54037504821746679
+    second: PotionHOuse_20
+  - first:
+      213: -7045586690993236728
+    second: PotionHOuse_21
+  - first:
+      213: 1935102849570110559
+    second: PotionHOuse_22
+  - first:
+      213: -3645822815104084818
+    second: PotionHOuse_23
+  - first:
+      213: 5603922842929958452
+    second: PotionHOuse_24
+  - first:
+      213: -3169616695905461289
+    second: PotionHOuse_25
+  - first:
+      213: -3456027796582503955
+    second: PotionHOuse_26
+  - first:
+      213: 9080463052931353395
+    second: PotionHOuse_27
+  - first:
+      213: -7367807783887387790
+    second: PotionHOuse_28
+  - first:
+      213: -7912520239820682356
+    second: PotionHOuse_29
+  - first:
+      213: 4352943526459701987
+    second: PotionHOuse_30
+  - first:
+      213: 4952802297763357670
+    second: PotionHOuse_31
+  - first:
+      213: 5299693427257254725
+    second: PotionHOuse_32
+  - first:
+      213: 5962480214155100246
+    second: PotionHOuse_33
+  - first:
+      213: 2725389175384401624
+    second: PotionHOuse_34
+  - first:
+      213: -1988566802944254902
+    second: PotionHOuse_35
+  - first:
+      213: 2250241879489273400
+    second: PotionHOuse_36
+  - first:
+      213: -4162522221886886694
+    second: PotionHOuse_37
+  - first:
+      213: -2555613599162623636
+    second: PotionHOuse_38
+  - first:
+      213: -2210600897468677854
+    second: PotionHOuse_39
+  - first:
+      213: -7518868872096941568
+    second: PotionHOuse_40
+  - first:
+      213: 5841776899274994473
+    second: PotionHOuse_41
+  - first:
+      213: -7295150091208319992
+    second: PotionHOuse_42
+  - first:
+      213: -5498476207848271654
+    second: PotionHOuse_43
+  - first:
+      213: -2033992036254758901
+    second: PotionHOuse_44
+  - first:
+      213: -1729602056979760969
+    second: PotionHOuse_45
+  - first:
+      213: 3387858439718531374
+    second: PotionHOuse_46
+  - first:
+      213: 313185575011845807
+    second: PotionHOuse_47
+  - first:
+      213: 5988617534234948617
+    second: PotionHOuse_48
+  - first:
+      213: 1623568856132425915
+    second: PotionHOuse_49
+  - first:
+      213: 3894835770301764183
+    second: PotionHOuse_50
+  - first:
+      213: -6810640072326993112
+    second: PotionHOuse_51
+  - first:
+      213: -6277762333716727719
+    second: PotionHOuse_52
+  - first:
+      213: 5056507528965912887
+    second: PotionHOuse_53
+  - first:
+      213: 934841945370062672
+    second: PotionHOuse_54
+  - first:
+      213: -5652351926514897584
+    second: PotionHOuse_55
+  - first:
+      213: -2768287800348398253
+    second: PotionHOuse_56
+  - first:
+      213: -2526623219574033646
+    second: PotionHOuse_57
+  - first:
+      213: -3183211448861426992
+    second: PotionHOuse_58
+  - first:
+      213: -512581418543859487
+    second: PotionHOuse_59
+  - first:
+      213: 6545235863839976384
+    second: PotionHOuse_60
+  - first:
+      213: 5558301720520334170
+    second: PotionHOuse_61
+  - first:
+      213: 190271589386257886
+    second: PotionHOuse_62
+  - first:
+      213: 1666076245957555294
+    second: PotionHOuse_63
+  - first:
+      213: -8983702783070283206
+    second: PotionHOuse_64
+  - first:
+      213: 9152968370238441334
+    second: PotionHOuse_65
+  - first:
+      213: 2128876476554775646
+    second: PotionHOuse_66
+  - first:
+      213: 656262125231923769
+    second: PotionHOuse_67
+  - first:
+      213: 1871151579754196097
+    second: PotionHOuse_68
+  - first:
+      213: 7095809775376255470
+    second: PotionHOuse_69
+  - first:
+      213: -1876573823922711242
+    second: PotionHOuse_70
+  - first:
+      213: 8835328047344988573
+    second: PotionHOuse_71
+  - first:
+      213: 4628941586699210909
+    second: PotionHOuse_72
+  - first:
+      213: -7964036223950627708
+    second: PotionHOuse_73
+  - first:
+      213: -8366322198699557762
+    second: PotionHOuse_74
+  - first:
+      213: 1765280201290681924
+    second: PotionHOuse_75
+  - first:
+      213: -2989917780137124533
+    second: PotionHOuse_76
+  - first:
+      213: -5596977399157418307
+    second: PotionHOuse_77
+  - first:
+      213: 4232900631668983713
+    second: PotionHOuse_78
+  - first:
+      213: 5009156884131911520
+    second: PotionHOuse_79
+  - first:
+      213: -5377129166622631343
+    second: PotionHOuse_80
+  - first:
+      213: -5543881013873469571
+    second: PotionHOuse_81
+  - first:
+      213: 1046059507534132930
+    second: PotionHOuse_82
+  - first:
+      213: 360633913369859618
+    second: PotionHOuse_83
+  - first:
+      213: -7024364224908811603
+    second: PotionHOuse_84
+  - first:
+      213: 953889978591782144
+    second: PotionHOuse_85
+  - first:
+      213: -2126663913761636575
+    second: PotionHOuse_86
+  - first:
+      213: 9108678771484302359
+    second: PotionHOuse_87
+  - first:
+      213: 2166829103267689332
+    second: PotionHOuse_88
+  - first:
+      213: -6058939476659835135
+    second: PotionHOuse_89
+  - first:
+      213: 9139408780585596771
+    second: PotionHOuse_90
+  - first:
+      213: 663831364608289955
+    second: PotionHOuse_91
+  - first:
+      213: 3593931459515072525
+    second: PotionHOuse_92
+  - first:
+      213: -2529098335385400663
+    second: PotionHOuse_93
+  - first:
+      213: 6236421727010198058
+    second: PotionHOuse_94
+  - first:
+      213: 2431938700939681523
+    second: PotionHOuse_95
+  - first:
+      213: 5760854964914227166
+    second: PotionHOuse_96
+  - first:
+      213: -4386079526294026648
+    second: PotionHOuse_97
+  - first:
+      213: -246700883480720226
+    second: PotionHOuse_98
+  - first:
+      213: -4138314828398677906
+    second: PotionHOuse_99
+  - first:
+      213: -5857154713107027013
+    second: PotionHOuse_100
+  - first:
+      213: -4710616562308690080
+    second: PotionHOuse_101
+  - first:
+      213: -2883046661443121788
+    second: PotionHOuse_102
+  - first:
+      213: 7139485459922273618
+    second: PotionHOuse_103
+  - first:
+      213: 5972354996270863757
+    second: PotionHOuse_104
+  - first:
+      213: 3030614431136941009
+    second: PotionHOuse_105
+  - first:
+      213: 7525733577050892987
+    second: PotionHOuse_106
+  - first:
+      213: 7108783342170090
+    second: PotionHOuse_107
+  - first:
+      213: 1883627414101966598
+    second: PotionHOuse_108
+  - first:
+      213: -5132048535146635606
+    second: PotionHOuse_109
+  - first:
+      213: 3220842563058882542
+    second: PotionHOuse_110
+  - first:
+      213: 8867005447331928875
+    second: PotionHOuse_111
+  - first:
+      213: -2881716261416423229
+    second: PotionHOuse_112
+  - first:
+      213: 7856985800605911376
+    second: PotionHOuse_113
+  - first:
+      213: 2262545309350994141
+    second: PotionHOuse_114
+  - first:
+      213: 2612495105351872552
+    second: PotionHOuse_115
+  - first:
+      213: -2553624444278082480
+    second: PotionHOuse_116
+  - first:
+      213: 4932173849493541202
+    second: PotionHOuse_117
+  - first:
+      213: 1764688297662923134
+    second: PotionHOuse_118
+  - first:
+      213: 4423744531747946913
+    second: PotionHOuse_119
+  - first:
+      213: 2201070003141244437
+    second: PotionHOuse_120
+  - first:
+      213: -2314376016151143154
+    second: PotionHOuse_121
+  - first:
+      213: -4279240482252727499
+    second: PotionHOuse_122
+  - first:
+      213: -6348755951133005307
+    second: PotionHOuse_123
+  - first:
+      213: -6755035519564954304
+    second: PotionHOuse_124
+  - first:
+      213: 6560213048755094151
+    second: PotionHOuse_125
+  - first:
+      213: -3457891171657495666
+    second: PotionHOuse_126
+  - first:
+      213: 2478641465748868995
+    second: PotionHOuse_127
+  - first:
+      213: -7244664901832607285
+    second: PotionHOuse_128
+  - first:
+      213: -5251850007654972119
+    second: PotionHOuse_129
+  - first:
+      213: 4149177167551103799
+    second: PotionHOuse_130
+  - first:
+      213: -5712879738618310802
+    second: PotionHOuse_131
+  - first:
+      213: 2913009034449888416
+    second: PotionHOuse_132
+  - first:
+      213: -551459687152247673
+    second: PotionHOuse_133
+  - first:
+      213: -2747661602850084572
+    second: PotionHOuse_134
+  - first:
+      213: 911004716094840484
+    second: PotionHOuse_135
+  - first:
+      213: 6081458297862942689
+    second: PotionHOuse_136
+  - first:
+      213: 3431083545486096758
+    second: PotionHOuse_137
+  - first:
+      213: -3425268172411142694
+    second: PotionHOuse_138
+  - first:
+      213: -5055676549677319578
+    second: PotionHOuse_139
+  - first:
+      213: 3958273793275075863
+    second: PotionHOuse_140
+  - first:
+      213: -3962316373921507829
+    second: PotionHOuse_141
+  - first:
+      213: 7467158056118327811
+    second: PotionHOuse_142
+  - first:
+      213: 7195094466564735406
+    second: PotionHOuse_143
+  - first:
+      213: 898679367556914757
+    second: PotionHOuse_144
+  - first:
+      213: -8868663510127940953
+    second: PotionHOuse_145
+  - first:
+      213: 2664024111846369081
+    second: PotionHOuse_146
+  - first:
+      213: 2235559319598173738
+    second: PotionHOuse_147
+  - first:
+      213: 4445015831194158172
+    second: PotionHOuse_148
+  - first:
+      213: 1718591391888955309
+    second: PotionHOuse_149
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PotionHOuse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c07ed4f8b8cf410800000000000000
+      internalID: 1512237022493215860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b86b0f25bca7710800000000000000
+      internalID: 1691888167117294406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308d4305deec93f60800000000000000
+      internalID: 8014664530530719747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42585290675e8f170800000000000000
+      internalID: 8212566215632454948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8a9655fcfd9b6c0800000000000000
+      internalID: -4127021501924136733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea73cf64b3daed3b0800000000000000
+      internalID: -5485756825985075282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9aa579d6ca4d480800000000000000
+      internalID: -8875279378949690883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 41
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf0f70716a681120800000000000000
+      internalID: 2384772969424424924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db61e0aeab7613a60800000000000000
+      internalID: 7652011294367553213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 41
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cc78f6d77822fe0800000000000000
+      internalID: -1215259976624780154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75be8ca1666020fa0800000000000000
+      internalID: -5836095131512935593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 41
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c43535a7a0746b0800000000000000
+      internalID: -5312265714959954863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207c271ec2d6c9950800000000000000
+      internalID: 6457156005270832898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 21
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf471a9db6efe0ad0800000000000000
+      internalID: -2733968184601119493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 21
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a089654102cb33300800000000000000
+      internalID: 230734851892221962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 21
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e020ea45c29b6d00800000000000000
+      internalID: 967027921063518434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 21
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875f2cea4ce0c51e0800000000000000
+      internalID: -2207873479409994376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 21
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7825d74837eac80800000000000000
+      internalID: -8309577249576548374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c7ed060a6240290800000000000000
+      internalID: -7925166974003413995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e8546623ca65e90800000000000000
+      internalID: -7037248035255644621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9042d88fc25004ff0800000000000000
+      internalID: -54037504821746679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805d021db3c093e90800000000000000
+      internalID: -7045586690993236728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cf8700acddada10800000000000000
+      internalID: 1935102849570110559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionHOuse_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4d4bf477f676dc0800000000000000
+      internalID: -3645822815104084818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

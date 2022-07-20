@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e36464cc1610c5540aa1894d3b47c73f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - manaPotion: {fileID: 21300000, guid: a3d4b8626000bca42bafd33b8ee19870, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

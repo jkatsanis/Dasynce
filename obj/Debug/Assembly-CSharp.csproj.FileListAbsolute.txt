@@ -1,0 +1,2 @@
+C:\Unity\Acid\AcidModulo\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Unity\Acid\AcidModulo\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

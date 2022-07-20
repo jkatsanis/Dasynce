@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a7e7a28cef668ab408409cc91cab4aa8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - potionRB: {instanceID: 0}
+  - potion: {instanceID: 0}
+  - rigidbody2D: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - d: {fileID: 7551838338384111856, guid: 65c9853d371fe164aa70cc5efd69e3ea, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

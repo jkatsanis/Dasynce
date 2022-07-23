@@ -6,5 +6,4 @@ public class ItemSprites : MonoBehaviour
 {
     public Sprite manaPotion;
     public Sprite defaultSlot;
-
 }

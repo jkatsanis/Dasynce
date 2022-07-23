@@ -113,7 +113,7 @@ public class PotionAttack
         {
             if (controller.inventory.IsSliderOnItem(Item.ItemType.ManaPotion))
             {
-                controller.inventory.RemoveItem();
+                controller.inventory.RemoveItem(GetManaPotion(), true);
             }
             else
             {

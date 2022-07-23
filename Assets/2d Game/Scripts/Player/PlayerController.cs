@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
             DoMovemMentSetup();
             if (Input.GetKeyDown(KeyCode.L))
             {
-                Item item = new Item(Item.ItemType.ManaPotion, itemSprites.manaPotion);
+                Item item = new Item(Item.ItemType.ManaPotion, itemSprites.manaPotion, Item.isManaPotionStackAble);
                 inventory.AddItem(item);
             }
         }

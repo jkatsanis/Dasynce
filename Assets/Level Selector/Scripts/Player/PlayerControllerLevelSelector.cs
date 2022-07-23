@@ -25,7 +25,7 @@ public class PlayerControllerLevelSelector : MonoBehaviour
     {
         InstantiateInventory.GetInventory(out inv, _inventoryInstance, out inventory, out _itemSprites);
 
-        manaPotion = new Item(Item.ItemType.ManaPotion, _itemSprites.manaPotion);
+        manaPotion = new Item(Item.ItemType.ManaPotion, _itemSprites.manaPotion, true);
 
         _animator = GetComponent<Animator>();
     }

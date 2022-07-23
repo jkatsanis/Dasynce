@@ -57,15 +57,6 @@ public class PllayerAttack : MonoBehaviour
             potionAttack.OnPotionRBDestroy += PotionAttack_OnPotionRBDestroy;
             potionAttack.SetPotion();
 
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                foreach (Item items in controller.inventory.inventoryItems)
-                {
-                    print(items.itemType);
-                    print(items.itemSlotIndx);
-                }
-            }
-
             if (Input.GetMouseButtonDown(0) && !attacked)
             {
                 Attack();

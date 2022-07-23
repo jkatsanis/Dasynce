@@ -13,11 +13,9 @@ TagManager:
   - Platform
   - Potion
   - ScientistHead
-  - EnemyDownAttackGorilla
-  - EnemyAttackColliderHydra
-  - Hydra
   - LevelSelectorShield
   - Inventory
+  - EnemyDownAttackGorilla
   layers:
   - Default
   - TransparentFX
@@ -60,6 +58,15 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 74009345
+    locked: 0
+  - name: foreground
+    uniqueID: 841332837
+    locked: 0
+  - name: InteractableObjects
+    uniqueID: 4018929319
+    locked: 0
+  - name: floor
+    uniqueID: 77732301
     locked: 0
   - name: walls
     uniqueID: 3262421227

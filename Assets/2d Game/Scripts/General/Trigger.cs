@@ -36,7 +36,7 @@ public class Trigger : MonoBehaviour
             cnt++;
         }
         if (cnt == playerController.slideDownOfWallCooldown /*|| !playerController.onWall*/)
-        {          
+        {
             enableSlideWallCooldown = false; 
             cnt = 0;
             playerController.setWallPosDown = true;

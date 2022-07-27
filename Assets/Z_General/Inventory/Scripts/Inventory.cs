@@ -11,12 +11,9 @@ public class Inventory
     public GameObject inventoryGameobject { get; private set; }   
     public List<Item> inventoryItems { get; private set; }
     public ItemSprites itemSprites { get; }
-    public GameObject[] slots { get; }
     public InventoryInputs inputs { get; private set; }
     public InventoryData inventoryData { get; }
-    public GameObject[] stackSlots { get; private set; }
-    public int[] stackSlotCount { get; private set; }
-
+    public SlotData slotData { get; private set; }
     public Inventory(GameObject inventoryGameobject, ItemSprites itemSprites)
     {
         this.itemSprites = itemSprites;
@@ -24,18 +21,16 @@ public class Inventory
 
         this.inventoryGameobject = inventoryGameobject;
         inventoryData = inventoryGameobject.GetComponent<InventoryData>();
-        stackSlots = inventoryData.stackSlots;
-        stackSlotCount = new int[stackSlots.Length];
         inputs = inventoryGameobject.GetComponent<InventoryInputs>();
-        slots = GetSlots();
+        slotData = new SlotData(inventoryData.stackSlots);
     }
 
     public void AddItem(Item item)
     {
-        if (IsASlotFree())
+        if (slotData.IsASlotFree())
         {
             inventoryItems.Add(item);
-            AddItemToSlot(item);
+            slotData.AddItemToSlot(item);
         }
     } 
 
@@ -47,7 +42,7 @@ public class Inventory
         }
 
         inventoryItems.Remove(item);    
-        ReplaceSlot(item);
+        slotData.ReplaceSlot(item, itemSprites);
     }
     public void RemoveItem(Item item, bool removeAt) 
     {
@@ -57,7 +52,7 @@ public class Inventory
         }
 
         inventoryItems.RemoveAt(GetRemoveIndex(inputs.GetSliderIndex()));
-        ReplaceSlot(inputs.GetSliderIndex());
+        slotData.ReplaceSlot(inputs.GetSliderIndex(), itemSprites);
     }
     public bool ExistItem(Item.ItemType itemType)
     {
@@ -89,20 +84,19 @@ public class Inventory
     {
         if (item.isStackable)
         {
-            TMP_Text text = stackSlots[item.itemSlotIndx].GetComponent<TMP_Text>();
-
+            TMP_Text text = slotData.stackSlots[item.itemSlotIndx].GetComponent<TMP_Text>();
 
             if (IsLastitemInStackList(item))
             {
                 text.text = string.Empty;
-                stackSlotCount[item.itemSlotIndx]--;
+                slotData.stackSlotCount[item.itemSlotIndx]--;
                 return false;   
             }
             else
             {
                 inventoryItems.Remove(item);
-                stackSlotCount[item.itemSlotIndx]--;
-                text.text = stackSlotCount[item.itemSlotIndx].ToString();
+                slotData.stackSlotCount[item.itemSlotIndx]--;
+                text.text = slotData.stackSlotCount[item.itemSlotIndx].ToString();
                 return true;
             }
         }
@@ -110,104 +104,14 @@ public class Inventory
     }
     private bool IsLastitemInStackList(Item item)
     {
-        int stackSlotCnt = stackSlotCount[item.itemSlotIndx];
+        int stackSlotCnt = slotData.stackSlotCount[item.itemSlotIndx];
         return stackSlotCnt == 1;
     }
-    private void ReplaceSlot(Item item)
-    {
-        Image image = slots[item.itemSlotIndx].GetComponent<Image>();
-        image.sprite = itemSprites.defaultSlot;
-    }
-    private void ReplaceSlot(int indx)
-    {
-        Image image = slots[indx].GetComponent<Image>();
-        image.sprite = itemSprites.defaultSlot;
-    }
-
-    private void AddItemToSlot(Item item)
-    {
-        if (item.isStackable)
-        {
-            GameObject slot = GetSlotToModify(item, out bool counterDoesExist, out int index);
-
-            TMP_Text stackSlotText = stackSlots[index].GetComponent<TMP_Text>();
-            stackSlotCount[index]++;
-            stackSlotText.text = stackSlotCount[index].ToString();
-
-            if (!counterDoesExist)
-            {
-                Image image = slot.GetComponent<Image>();
-                image.sprite = item.itemSprite;
-                item.itemSlotIndx = index;
-            }
-            return;
-        }
-        for (int i = 0; i <= INVENTORY_SLOTS; i++)
-        {
-            Image image = slots[i].GetComponent<Image>();
-            if (image.sprite.name == INVENTORY_EMPTY_SLOT_NAME)
-            {
-                item.itemSlotIndx = i;
-                image.sprite = item.itemSprite;
-                return; 
-            }
-        }
-    }
-    
-    private GameObject GetSlotToModify(Item item, out bool counterDoesExist, out int indx)
-    {
-        for (int i = 0; i <= INVENTORY_SLOTS; i++)
-        {
-            Image image = slots[i].GetComponent<Image>();
-            if (image.sprite.name.ToLower() == item.itemType.ToString().ToLower())
-            {
-                indx = i;
-                counterDoesExist = true;
-                return slots[i];
-            }
-        }
-        for (int i = 0; i <= INVENTORY_SLOTS; i++)
-        {
-            Image image = slots[i].GetComponent<Image>();
-            if (image.sprite.name == INVENTORY_EMPTY_SLOT_NAME)
-            {
-                indx = i;
-                counterDoesExist = false;
-                return slots[i];
-            }
-        }
-        indx = -1;
-        counterDoesExist = false;
-        return null;
-    }
-
-    private GameObject[] GetSlots()
-    {
-        GameObject[] invSlots = new GameObject[INVENTORY_SLOTS + 1];
-        for (int i = 0; i <= INVENTORY_SLOTS; i++)
-        {
-            invSlots[i] = GameObject.Find(i.ToString());
-        }
-        return invSlots;
-    }
-
+  
     public bool IsSliderOnItem(Item.ItemType itemType)
     {
-        Image image = slots[inputs.GetSliderIndex()].GetComponent<Image>();
+        Image image = slotData.slots[inputs.GetSliderIndex()].GetComponent<Image>();
         return image.sprite.name.ToLower() == itemType.ToString().ToLower();   
-    }
-
-    private bool IsASlotFree()
-    {
-        for (int i = 0; i <= INVENTORY_SLOTS; i++)
-        {
-            Image image = slots[i].GetComponent<Image>();
-            if (image.sprite.name == INVENTORY_EMPTY_SLOT_NAME)
-            {
-                return true;
-            }
-        }
-        return false;
     }
 
     public int GetRemoveIndex(int ind)
@@ -215,7 +119,7 @@ public class Inventory
         int indx = 0;
         for (int i = 0; i < ind; i++)
         {
-            Image image = slots[i].GetComponent<Image>();
+            Image image = slotData.slots[i].GetComponent<Image>();
             if (image.sprite.name != INVENTORY_EMPTY_SLOT_NAME)
             {
                 indx++;

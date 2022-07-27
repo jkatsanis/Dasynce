@@ -54,8 +54,8 @@ public class PlayerController : MonoBehaviour
 
     #region Inventory
     [SerializeField] private InstantiateInventory _inventoryInstance;
-    public Inventory inventory;
-    public ItemSprites itemSprites;
+    [HideInInspector] public Inventory inventory;
+    [HideInInspector] public ItemSprites itemSprites;
     private GameObject _inv;
     #endregion
 
@@ -253,5 +253,4 @@ public class PlayerController : MonoBehaviour
     }
 
     #endregion
-
 }

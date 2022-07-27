@@ -56,6 +56,9 @@ TagManager:
   - name: AbsuluteBackground
     uniqueID: 2997786143
     locked: 0
+  - name: smoke
+    uniqueID: 2167202611
+    locked: 0
   - name: Background
     uniqueID: 74009345
     locked: 0
@@ -64,6 +67,12 @@ TagManager:
     locked: 0
   - name: InteractableObjects
     uniqueID: 4018929319
+    locked: 0
+  - name: BehindBuildings
+    uniqueID: 2060859797
+    locked: 0
+  - name: Buildings
+    uniqueID: 2860157947
     locked: 0
   - name: floor
     uniqueID: 77732301

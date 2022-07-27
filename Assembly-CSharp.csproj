@@ -65,6 +65,7 @@
     <Compile Include="Assets\2d Game\Scripts\General\StaticSceneManager.cs" />
     <Compile Include="Assets\2d Game\Scripts\Enemys\DetectDamageEnemy.cs" />
     <Compile Include="Assets\2d Game\Scripts\Player\PlayerAttack\PllayerAttack.cs" />
+    <Compile Include="Assets\2d Game\Scripts\Camera\TestCAM.cs" />
     <Compile Include="Assets\2d Game\Scripts\Player\PlayerMovment.cs" />
     <Compile Include="Assets\2d Game\Scripts\General\UITimer.cs" />
     <Compile Include="Assets\2d Game\Scripts\Player\PlayerController.cs" />
@@ -85,13 +86,15 @@
     <Compile Include="Assets\2d Game\Scripts\Player\PlayerDie.cs" />
     <Compile Include="Assets\Z_General\Inventory\Scripts\InventoryInputs.cs" />
     <Compile Include="Assets\2d Game\Scripts\Player\DetectDamage\DetectDamageOfEnemys.cs" />
+    <Compile Include="Assets\2d Game\Scripts\InteractableObjects\BushData.cs" />
     <Compile Include="Assets\Level Selector\Scripts\UnsolidObjects\UnsolidObject.cs" />
     <Compile Include="Assets\Z_General\Inventory\Scripts\Inventory.cs" />
     <Compile Include="Assets\2d Game\Scripts\Menus\PauseMenu.cs" />
     <Compile Include="Assets\2d Game\Scripts\General\Trigger.cs" />
     <Compile Include="Assets\2d Game\Scripts\Player\PlayerAttack\PotionAttack.cs" />
     <Compile Include="Assets\Level Selector\Scripts\Player\PlayerControllerLevelSelector.cs" />
-    <Compile Include="Assets\2d Game\Scripts\InteractableObjects\BushData.cs" />
+    <Compile Include="Assets\Z_General\Inventory\Scripts\ChangeSlot.cs" />
+    <Compile Include="Assets\Z_General\Inventory\Scripts\SlotData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\2d Game\TextMesh Pro\Shaders\TMPro.cginc" />

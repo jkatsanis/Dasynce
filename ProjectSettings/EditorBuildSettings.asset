@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2d Game/Scenes/EnterScreen/Enter_Screen.unity
     guid: 8adc5256cc37b3048bed08b687ad1b97
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level Selector/Scenes/LevelSelector.unity
     guid: 742c1c76d97185d43bfcefa6f77bf15d
   - enabled: 1

@@ -16,7 +16,7 @@ public class Item
         this.isStackable = isStackable;
     }
 
-    public static bool isManaPotionStackAble = true;
+    public static bool isManaPotionStackAble = false;
     public enum ItemType
     {
         ManaPotion

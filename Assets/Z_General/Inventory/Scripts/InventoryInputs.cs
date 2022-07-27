@@ -1,17 +1,26 @@
 using System.Collections;
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryInputs : MonoBehaviour
 {
     [SerializeField] public Transform _slider;
 
+    public ChangeSlot changeSlot;
+
     private KeyCode[] _validSlotInputs;
     private const int MOVING_SPACE_X = 65;
     private const int START_OF_INVENTORY_X = 61;
 
+    private PlayerController _playerController;
     private void Start()
     {
+        changeSlot = new ChangeSlot();
+
+        GameObject player = GameObject.Find("CurrentScientist");
+        _playerController = player.GetComponent<PlayerController>();
+
         _validSlotInputs = new[] 
         { 
             KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, 
@@ -23,9 +32,20 @@ public class InventoryInputs : MonoBehaviour
     {
         KeyCode sliderPosition = GetSliderPosition();
         if (sliderPosition != KeyCode.None)
-        {
+        {   
             MoveSliderToPosition(sliderPosition);
         }
+            
+        changeSlot.GetInput(_playerController, GetSliderIndex());
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            foreach (Item item in _playerController.inventory.inventoryItems)
+            {
+                print(item.itemSlotIndx);
+            }
+        }
+   
     }
 
     private KeyCode GetSliderPosition()
